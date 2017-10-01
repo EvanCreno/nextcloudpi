@@ -50,6 +50,9 @@ exit 0
 EOF
     chmod +x /etc/cont-init.d/100-letsencrypt-run.sh
   }
+
+  # temporary workaround for bug https://github.com/certbot/certbot/issues/5138#issuecomment-333391771
+  cat >> /etc/pip.conf <<<"extra-index-url=https://www.piwheels.hostedpi.com/simple/zope.components"
 }
 
 # tested with git version v0.11.0-71-g018a304

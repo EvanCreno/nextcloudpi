@@ -1,7 +1,9 @@
 
-[v0.31.5](https://github.com/nextcloud/nextcloudpi/commit/7bca99d) (2017-09-30) nc-format-USB: fix format disks >2TB and more
+[v0.31.6](https://github.com/nextcloud/nextcloudpi/commit/c2c5883) (2017-10-01) letsencrypt: fix external bug (Closes #230)
 
-[v0.31.4](https://github.com/nextcloud/nextcloudpi/commit/cdf1822) (2017-09-30) nc-format-USB: speed up ext4 creation with lazy initialization
+[v0.31.5](https://github.com/nextcloud/nextcloudpi/commit/1195316) (2017-09-30) nc-format-USB: fix format disks >2TB and more (Closes #223)
+
+[v0.31.4 ](https://github.com/nextcloud/nextcloudpi/commit/cdf1822) (2017-09-30) nc-format-USB: speed up ext4 creation with lazy initialization
 
 [v0.31.3 ](https://github.com/nextcloud/nextcloudpi/commit/c2abfaa) (2017-09-30) letsencrypt: fix uppercase domains cert path (Closes #229)
 
